@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirebaseAdminBackendApplication {
+public class FirebasePushNotificationAdmin {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirebaseAdminBackendApplication.class, args);
+		SpringApplication.run(FirebasePushNotificationAdmin.class, args);
 	}
 
 }

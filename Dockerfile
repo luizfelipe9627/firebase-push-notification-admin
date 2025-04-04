@@ -16,8 +16,8 @@ FROM openjdk:21-jdk-slim
 
 WORKDIR /app
 
-COPY --from=builder /app/target/firebaseadminbackend-0.0.1-SNAPSHOT.jar firebaseadminbackend.jar
+COPY --from=builder /app/target/firebase-push-notification-admin-0.0.1-SNAPSHOT.jar firebase-push-notification-admin.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "firebaseadminbackend.jar"]
+ENTRYPOINT ["java", "-jar", "firebase-push-notification-admin.jar"]
