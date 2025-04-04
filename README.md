@@ -112,3 +112,10 @@ curl -X POST \
 
 3. Verifique os logs do servidor para acompanhar os detalhes da requisição e resposta.
 
+## Licença
+
+Este projeto é de código aberto e está sob a licença MIT.
+
+---
+
+🔥 **Desenvolvido com Java e Spring Boot** 🚀
