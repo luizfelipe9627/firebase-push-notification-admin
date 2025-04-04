@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+    environment:
+      - FIREBASE_CREDENTIALS_PATH=/app/firebase-credentials.json
+    volumes:
+      - ./src/main/resources/firebase-credentials.json:/app/firebase-credentials.json
+    ports:
+      - "8080:8080"
