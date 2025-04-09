@@ -23,7 +23,8 @@ Antes de executar este projeto, certifique-se de ter os seguintes pré-requisito
 
 1. Crie um projeto no Firebase.
 2. Gere uma chave privada para o Firebase Admin SDK através do console do Firebase (Configurações do Projeto > Contas de Serviço > Gerar Nova Chave Privada).
-3. Baixe o arquivo JSON contendo as credenciais e coloque-o na pasta `src/main/resources` do seu projeto.
+3. Baixe o arquivo JSON contendo as credenciais e renomeie-o para `firebase-credentials.json`.
+4. Coloque o arquivo `firebase-credentials.json` na pasta `src/main/resources` do seu projeto.
 
 ### Dependências do Maven
 
